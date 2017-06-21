@@ -6,7 +6,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 )
 
-func initLog() {
+func InitLog() {
 	if testing.Verbose() {
 		log.SetLevel(log.DebugLevel)
 	}
